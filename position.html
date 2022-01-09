@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        div>img{
+            width: 50%;
+            border: 2px solid green;
+        }
+        .img1{
+            position: relative;
+            top: 350px;
+            z-index: 1;
+        }
+        .img2{
+            position: relative;
+            z-index: 3;
+        }
+        .img3{
+            position: relative;
+            top: -250px;
+            z-index: -2;
+        }
+        .fixed{
+            position: fixed;
+            right: 100px;
+            bottom: 40px;
+            
+        }
+    </style>
+</head>
+<body>
+    <section class="first">
+        <h1>Hello1</h1>
+        <h1>Hello2</h1>
+        <h1>Hello3</h1>
+    </section>
+    <section class="second">
+        <div class="img1"><img src="images/my-bg.png" alt=""></div>
+        <div class="img2"><img src="images/mahadi.png" alt=""></div>
+        <div class="img3"><img src="images/jhankar2.png" alt=""></div>
+    </section>
+    <div class="fixed">
+        <img src="images/profPic.png" alt="">
+    </div>
+    <h1>mahdi1</h1>
+    <h1>mahdi2</h1>
+    <h1>mahdi3</h1>
+    <h1>mahdi4</h1>
+    <h1>mahdi5</h1>
+    <h1>mahdi6</h1>
+    <h1>mahdi7</h1>
+    <h1>mahdi8</h1>
+</body>
+</html>
